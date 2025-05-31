@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:                 # "specs" ki jagah "spec" hona chahiye
+  containers:
+    - name: nginx-image
+      image: nginx
+      ports:
+        - containerPort: 80
+
+
+
+
