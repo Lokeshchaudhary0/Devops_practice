@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
-spec:                 # "specs" ki jagah "spec" hona chahiye
+spec:               
   containers:
     - name: nginx-image
       image: nginx
