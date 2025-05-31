@@ -4,10 +4,15 @@ metadata:
   name: nginx
 spec:               
   containers:
-    - name: nginx-image
+    - name: nginx-pod
       image: nginx
       ports:
         - containerPort: 80
+    
+    - name: firefox-pod
+      image: linuxserver/firefox
+      ports:
+        - containerPort: 3000
 
 
 
