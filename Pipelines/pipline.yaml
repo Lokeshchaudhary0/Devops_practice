@@ -1,2 +1,6 @@
 trigger: none
-stages: Build
+stages:
+- stages: build
+  jobs:
+  - job: BuildJob
+
